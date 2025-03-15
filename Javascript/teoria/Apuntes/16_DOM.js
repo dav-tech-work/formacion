@@ -42,29 +42,29 @@ for (let i = 0; i < parrafos.length; i++) {
     if (ponteAzul) {
       parrafos[i].style.backgroundColor = "steelblue";
       parrafos[i].style.color = "white";
-      ponteAzul = false
+      ponteAzul = false;
     } else {
       parrafos[i].style.backgroundColor = "white";
       parrafos[i].style.color = "black";
-      ponteAzul = true
+      ponteAzul = true;
     }
   });
 }
 
-const div = document.querySelector("div")
+const div = document.querySelector("div");
 
 div.addEventListener("click", () => {
-    div.innerHTML = "<h2>Soy un h2 nuevo</h2>"
-})
+  div.innerHTML = "<h2>Soy un h2 nuevo</h2>";
+});
 
 // Otros eventos
 // Cuando el cursor se pone encima del elemento seleccionado
 h1.addEventListener("mouseover", () => {
-    h1.style.backgroundColor = "tomato"
-    h1.style.color = "white" 
-})
+  h1.style.backgroundColor = "tomato";
+  h1.style.color = "white";
+});
 // Cuando el cursor se pone fuera del elemento seleccionado
 h1.addEventListener("mouseout", () => {
-    h1.style.backgroundColor = "black"
-    h1.style.color = "white" 
-})
+  h1.style.backgroundColor = "black";
+  h1.style.color = "white";
+});
